@@ -1,0 +1,10 @@
+These examples show a comparison of Puppet Ruby DSL versus Puppet Native DSL.
+
+So for example:
+
+puppet defaults/defaults1.pp
+
+Should result in the same output when ran as:
+
+puppet defauls/defaults1.rb
+
