@@ -1,2 +1,4 @@
-$asdf = "foo"
-notice($asdf)
+node "default" {
+  $asdf = "foo"
+  notice($asdf)
+}
