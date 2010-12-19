@@ -2,6 +2,6 @@ define "foo" do
   notice [@name]
 end
 
-#node "default" do
-  Puppet::DSL::ResourceAPI::create_resource :foo, "foo"
-#end
+node "default" do
+  create_resource :foo, "foo"
+end
