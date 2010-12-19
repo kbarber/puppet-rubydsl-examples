@@ -1,0 +1,2 @@
+$asdf = "foo"
+notice($asdf)
