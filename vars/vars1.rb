@@ -1,8 +1,10 @@
+#!/usr/bin/env puppet
+
 node "default" do
-  # Set
+  # Defining
   scope.setvar("asdf", "foo")
 
-  # Get
+  # Using
   a = scope.lookupvar("asdf")
   notice [a]
 end
