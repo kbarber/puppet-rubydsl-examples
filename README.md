@@ -1,4 +1,4 @@
-== Overview
+## Overview
 
 The purpose of this repo is to provide some working (albeit contrived) examples
 of Ruby DSL, alongside their corresponding Puppet DSL equivalents. So it is
@@ -9,7 +9,7 @@ wrote this) see the Ruby DSL Wiki page:
 
 <http://projects.puppetlabs.com/projects/1/wiki/Ruby_Dsl>
 
-== Layout
+## Layout
 
 These directories contain several examples of Ruby DSL and Puppet DSL next to
 each other. So for example the file:
